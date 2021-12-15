@@ -1,0 +1,146 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,600;1,200;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+
+/* ______________________________
+DESKTOP */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url(/images/vectos01.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+
+.logo img{
+   width: 10%; 
+   margin: 40px;
+}
+
+.text-call h1 {
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0 0 0 40px;
+}
+
+.text-call span {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: #33CC99;
+}
+
+.text-call-play{
+    width: 21%;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+    margin: 40px 45px 20px;
+}
+
+.text-call-play span{
+    font-weight: bold;
+    color: #33CC99;
+}
+
+.social-media{
+    margin: 0 0 20px 30px;
+}
+.social-media a{
+    text-decoration: none;
+    margin: 0 0 20px 20px;
+    cursor: pointer;
+}
+.social-media img .facebook{
+    padding: 0 20px;
+}
+
+
+.play-spotify{
+    width: 40%;
+    margin: 0 40px;
+}
+
+.button-spotify{
+    margin: 10px 40px 20px;
+}
+.button-spotify button{
+    background-color: #33CC99;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+.image img{
+    position: absolute;
+    width: 790px;
+    height: 668px;
+    left: 958.33px;
+    top: 140px;
+
+}
+
+/* _________________________
+MOBILE */
+
+@media screen and (max-width: 500px){
+
+body{
+    background-image: url(/Images/Vector_mobile.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.text-call h1 {
+    font-size: 30px;
+}
+
+.text-call span {
+    font-size: 45px;
+}
+
+.text-call-play{
+    width: 53%;
+    font-size: 12px;
+}
+
+.social-media{
+    margin: 10px 20px;
+}
+.social-media a{
+    padding: 10px 2px;
+}
+
+.play-spotify{
+    width: 80%;
+}
+}
